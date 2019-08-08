@@ -6,36 +6,46 @@ import Header from '../../components/shared/navbar/index'
 import Button from '../../ui/button'
 import Innovation from './innovation'
 import Features from './features/index'
+import Sockets from './sockets/index'
+import ReactRotatingText from 'react-rotating-text'
 
 function Landing() {
   return (
     <Page>
       <Header theme='dark'>
           <div className='CTA'>
-            <h1 className='Title'>Elastos means accelerated software development</h1>
-            <h2 className='Subtitle'>Set up your first scalable app in the cloud in just 45 seconds</h2>
+            <h1 className='Title'>Is your business ready for the internet of tomorrow?</h1>
+            <h2 className='Subtitle'>Build your first decentralized application on Elastos</h2>
             
             <Button primary >Find out more</Button>
 
             <div className='Separator' data-after='or' />
 
-            <p>
+            <p className='Secondary__CTA'>
               Ready to build? <a href='https://docs.syncano.io/#/cli-reference/installation'>Get in touch</a>, <br /> the rest you can be worked out from there.
             </p>
-            <p>
-              Edit <code>src/views/landing/index.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
+            {/* <div className='Project'>
+              <h2 className='Project__headline'>Assemble your backend from Syncano Sockets to build your</h2>
+              <p className='Project__title'>
+                <ReactRotatingText
+                  items={[
+                    ' fintech innovation solution',
+                    ' messenger bot',
+                    ' mobile backend',
+                    ' custom CMS',
+                    ' analytics integration',
+                    ' IoT backend',
+                    ' payment gateway',
+                    ' web hosting solution',
+                    '... basically, whatever...'
+                  ]} />
+              </p>
+            </div> */}
           </div>
       </Header>
       <Features />
+      {/* <Sockets /> */}
+
       <style jsx>{`
       /* = CTA
        * ==================================================================== */
@@ -88,6 +98,24 @@ function Landing() {
         }
       }
 
+      .Project__headline {
+        font-size: 24px;
+        font-weight: 300;
+        color: rgba(255,255,255, .5);
+      }
+
+      .Project__title {
+        font-family: Courier;
+        font-size: 36px;
+        font-weight: normal;
+        color: #fff;
+        margin-top: 7px;
+        min-height: 41px;
+      }
+
+      .Secondary__CTA {
+        padding-bottom: 25px;
+      }
       /* = SEPARATOR
        * ==================================================================== */
       .Separator {
