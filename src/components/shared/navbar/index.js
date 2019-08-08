@@ -20,13 +20,13 @@ const Header = ({
       <Hexagons />
     </div>
     <div className='Header__inner u-wrapper'>
-      <div className='Header__bar'>
+      {/* <div className='Header__bar'>
         <Link to='/'>
           <span className='Header__logo'>
             <Logo />
           </span>
         </Link>
-      </div>
+      </div> */}
 
       <SiteNav theme={theme}  closeNav={closeNav}/>
 
@@ -154,7 +154,7 @@ const Header = ({
         position: absolute;
         width: 100%;
         min-width: 1530px;
-        left: 50%;
+        left: 30%;
         margin-left: -765px;
         bottom: 0;
         display: flex;
