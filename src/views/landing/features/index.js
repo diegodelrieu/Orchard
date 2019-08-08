@@ -14,7 +14,7 @@ const Features = () => (
     <div className='Section__header u-ta-c'>
       <h2 className='u-title'>At Orchard, we want to help you build technology that matters, faster</h2>
       <p className='u-subtitle'>
-        Syncano’s Serverless Platform and SDKs automatically assemble and deploy your backend to the cloud instantaneously - all while you build your app.
+        The Elastos Smart Web will bring unmatched security and scalability to your application - seemlessly. 
       </p>
     </div>
 
@@ -22,11 +22,11 @@ const Features = () => (
       <Grid wrap>
         <div className='Heading'>
           <p className='Heading__item Heading__item--important'>
-            Use Syncano to experiment and test your product with real users on a live production platform until you achieve product/market fit. Get results faster than with any other solution. Adapt, tweak and deploy at blazing speed.
+            Use Elastos to secure and validate your data, and finally get to focus on what matters: your application.
           </p>
           <p className='Heading__item'>
-            Take the risk and friction out of application development.
-            As you grow, Syncano grows with you - Syncano’s infrastructure will automatically scale to support your needs.
+            Take the risk of application.
+            As you grow, Elastos grows with you - The Elastos infrastructure will automatically scale to support your needs.
           </p>
         </div>
         <div className='Feature-list'>
@@ -39,9 +39,9 @@ const Features = () => (
                 <div className='Feature__icon'>
                   <SocketRegistryIcon />
                 </div>
-                <h4 className='Feature__title'>Syncano Registry</h4>
+                <h4 className='Feature__title'>Decentralized identity</h4>
                 <p>
-                  Don’t rebuild what has already been built. The registry is your toolbox of reusable backend code.
+                  Secure and identify all the things that count: your users and your devices.
                 </p>
               </div>
             </Link>
@@ -55,9 +55,9 @@ const Features = () => (
                 <div className='Feature__icon'>
                   <AutomationSDKIcon />
                 </div>
-                <h4 className='Feature__title'>Syncano Automation SDK</h4>
+                <h4 className='Feature__title'>Elastos SDK</h4>
                 <p>
-                  Operate your backend directly from your local development environment. No, weird GUIs, no hassle, more efficiency!
+                  Start building your own application on the most secure blockchain in the world without even knowing it.
                 </p>
               </div>
             </Link>
@@ -71,9 +71,9 @@ const Features = () => (
                 <div className='Feature__icon'>
                   <CommunityIcon />
                 </div>
-                <h4 className='Feature__title'>Syncano Community</h4>
+                <h4 className='Feature__title'>Elastos Community</h4>
                 <p>
-                  Crowd + Cloud. Harness the power of our community, and give yourself more creative freedom. Share, build, collaborate.
+                  Harness the power of our community, and give yourself more creative freedom. Share, build, collaborate.
                 </p>
               </div>
             </Link>
@@ -87,9 +87,9 @@ const Features = () => (
                 <div className='Feature__icon'>
                   <CloudOSIcon />
                 </div>
-                <h4 className='Feature__title'>Syncano Cloud OS</h4>
+                <h4 className='Feature__title'>Elastos Browser</h4>
                 <p>
-                  Throw any Socket from the Registry into the Syncano Cloud OS, and its functionality becomes immediately available.
+                  Leverage the Elastos browser and gain unmatchable edge over your competition.
                 </p>
               </div>
             </Link>
