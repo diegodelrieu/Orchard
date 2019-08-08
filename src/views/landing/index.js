@@ -6,7 +6,7 @@ import Header from '../../components/shared/navbar/index'
 import Button from '../../ui/button'
 import Innovation from './innovation'
 import Features from './features/index'
-import Sockets from './sockets/index'
+// import Sockets from './sockets/index'
 import ReactRotatingText from 'react-rotating-text'
 
 function Landing() {
