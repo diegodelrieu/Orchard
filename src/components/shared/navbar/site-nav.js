@@ -7,24 +7,20 @@ const SiteNav = ({isOpen, theme, toggleSignIn, closeNav}) => (
     <div className='Site-nav__inner'>
       <Nav>
         <div>
-          <Link to='/features'>
-            <span className='Site-nav__item'>Product</span>
+          <Link to='/services'>
+            <span className='Site-nav__item'>Services</span>
           </Link>
         </div>
-        <Link to='/sockets'>
-          <span className='Site-nav__item'>Sockets</span>
-        </Link>
-        <Link to='/pricing'>
-          <span className='Site-nav__item'>Plans &amp; Pricing</span>
+        <Link to='/team'>
+          <span className='Site-nav__item'>Team</span>
         </Link>
         <Link to='/enterprise'>
           <span className='Site-nav__item'>Enterprise</span>
         </Link>
         <a className='Site-nav__item' href='https://docs.syncano.io/'>Documentation</a>
-        <div className='Site-nav__social'>
-          <a href='https://github.com/syncano'><i className='fa fa-github' /></a>
-          <Link to='/slack-invite'><i className='fa fa-slack' /></Link>
-        </div>
+        <Link to='/contact'>
+          <span className='Site-nav__item'>Get in touch</span>
+        </Link>
       </Nav>
     </div>
 
